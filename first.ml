@@ -1,1 +1,1 @@
-print_endline "Hell!";;
+let () = print_endline "Hell!";;
