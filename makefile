@@ -1,2 +1,2 @@
 clear :
-	@rm *.cmi *.cmo
+	@rm -f *.cmi *.cmo
