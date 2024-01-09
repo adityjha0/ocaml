@@ -1,8 +1,8 @@
-### OCaml
+## OCaml
 
 I am learning to code in OCaml.
 
 
 
-#### It is fun.
+### It's fun.
 You should definitely try it out!!
