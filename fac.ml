@@ -4,4 +4,4 @@ let rec factorial x =
 | _ -> x * factorial(x-1);;
 
 let y = factorial 6;;
-print_endline(string_of_int y);;
+let () = print_endline(string_of_int y);;
