@@ -31,8 +31,9 @@ let rec msort l =
   match l with 
     []->[]
   | [x]->[x]
-  |_ -> let left = take (length l / 2) l in
-        let right = drop (length l / 2) l in
+  |_ -> let a = length l in
+        let left = take (a / 2) l in
+        let right = drop (a / 2) l in
         merge (msort left) (msort right)
 ;;
 
