@@ -6,7 +6,8 @@ let rec drop_last_i a l =
 ;;
 
 let droplast l =
-  drop_last_i [] l
+  drop_last_i
+   [] l
 ;;
 
 let l = [1;2;3;4;5];;
